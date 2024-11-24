@@ -52,7 +52,6 @@
             text-decoration: none;
             font-weight: bold;
         }
-
     </style>
 </head>
 <body>
@@ -61,9 +60,6 @@
 
         <form action="teman_t05-ej02-2.php" method="post">
         
-
-
-
         <fieldset>
             <legend>Formulario de recogida de preferencias</legend>
                 

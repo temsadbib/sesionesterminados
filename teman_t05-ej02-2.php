@@ -47,7 +47,6 @@
             text-decoration: none;
             font-weight: bold;
         }
-
     </style>
 </head>
 <body>
