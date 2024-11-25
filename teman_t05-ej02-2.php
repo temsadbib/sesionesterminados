@@ -11,9 +11,9 @@
     $_SESSION['letra'] = $_POST['letra'];
     }
 
-    $nombre = $_REQUEST['nombre'] ?? $_SESSION['nombre'];
-    $fondo = $_REQUEST['fondo'] ?? $_SESSION['fondo'];
-    $letra = $_REQUEST['letra'] ?? $_SESSION['letra'];
+    $nombre = $_SESSION['nombre'];
+    $fondo = $_SESSION['fondo'];
+    $letra = $_SESSION['letra'];
 ?>
 
 <!doctype html>
@@ -69,12 +69,10 @@
 <div class="arrays">
 
 <pre>
-_REQUEST
 <?php print_r($_REQUEST); ?>
 </pre>
 <br>
 <pre>
-_SESSION
 <?php 
 print_r($_SESSION); 
 ?>
