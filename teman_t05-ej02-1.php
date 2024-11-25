@@ -5,7 +5,6 @@
     header("Location:teman_t05-ej02-2.php");
     }
 
-//    $_SESSION = [];
 
 ?>
 
